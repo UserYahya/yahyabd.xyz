@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>ARTICLE COMPARISON - Sample App for Pageview API</title>
+    <title>উইকিপিডিয়া নিবন্ধের পাতা দর্শনের তুলনামূলক চিত্র</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css"/>
@@ -56,19 +56,19 @@
       <!-- Header -->
       <div class="row aqs-row">
         <div class="col-lg-3 col-lg-offset-2">
-          <h4><strong>ARTICLE COMPARISON</strong></h4>
+          <h4><strong>নিবন্ধ তুলনা</strong></h4>
         </div>
         <div class="col-lg-5 text-right">
-          <h4>Sample App for Pageview API</h4>
+          <h4>উইকিপিডিয়ার পাতা দর্শনের তুলনামূলক চিত্র</h4>
         </div>
       </div>
 
       <!-- Project selector -->
       <div class="row aqs-row">
-        <div class="col-lg-1 col-lg-offset-2">Project</div>
+        <div class="col-lg-1 col-lg-offset-2">প্রকল্প</div>
         <div class="col-lg-7">
           <select class="aqs-project-selector">
-            <option value="enwiki" class="active">enwiki</option>
+            <option value="bnwiki" class="active">bnwiki</option>
           </select>
         </div>
       </div>
@@ -320,7 +320,7 @@
             defaults = null;
           }
         } 
-        defaults = defaults || ['Cat', 'Dog'];
+        defaults = defaults || ['বিড়াল', 'কুকুর'];
         setArticleSelectorDefaults(defaults);
       });
     </script>
