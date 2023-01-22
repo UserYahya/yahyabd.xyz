@@ -12,3 +12,7 @@ body {
 .title-bit {
     font-family: 'Nanum Pen Script', cursive;
 }
+.caption {
+	font-size:55%;
+	color:grey;
+	}
